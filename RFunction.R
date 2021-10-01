@@ -2,7 +2,7 @@ library('move')
 
 rFunction <- function(data)
 {
-  Sys.setenv(tz="GMT")
+  Sys.setenv(tz="UTC")
   
   data.spdf <- SpatialPointsDataFrame(coordinates(data),as.data.frame(data), proj4string=CRS("+proj=longlat +ellps=WGS84 +no_defs"))
   
