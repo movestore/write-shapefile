@@ -7,14 +7,14 @@ rFunction <- function(data)
   
   data.spdf <- SpatialPointsDataFrame(coordinates(data),as.data.frame(data), proj4string=CRS("+proj=longlat +ellps=WGS84 +no_defs"))
   
-  #writeOGR(data.spdf,dsn=Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),layer="data",driver="ESRI Shapefile") 
-  writeOGR(data.spdf,dsn="shapefile_output",layer="data",driver="ESRI Shapefile")
+  writeOGR(data.spdf,dsn=Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),layer="data",driver="ESRI Shapefile") 
+  #writeOGR(data.spdf,dsn="shapefile_output",layer="data",driver="ESRI Shapefile")
   
   #writeOGR(SHP, dsn="fbCrawl.shp", layer="fbCrawl", driver="ESRI Shapefile")
   #zip(zipfile='fbCrawlExport.zip', files=Sys.glob("fbCrawl.*"))
   #file.copy("fbCrawlExport.zip", file)
 
-  try(zip(zipfile="data_shps.zip",files=Sys.glob(paste0(Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),"data.*"))))
+  try(zip(zipfile="data_shps.zip",files=paste0(Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),"data.*")))
   #zip(zipfile="data_shps.zip",files=Sys.glob("shapefile_output/data.*"))
     
   result <- data
