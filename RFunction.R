@@ -7,12 +7,20 @@ rFunction <- function(data)
   
   data.spdf <- SpatialPointsDataFrame(coordinates(data),as.data.frame(data), proj4string=CRS("+proj=longlat +ellps=WGS84 +no_defs"))
   
-  writeOGR(data.spdf,dsn=Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),layer="data",driver="ESRI Shapefile") 
-  #writeOGR(data.spdf,dsn="shapefile_output",layer="data",driver="ESRI Shapefile",overwrite_layer=TRUE)
+  targetDirZipFile <- Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp")
   
-  #zip(zipfile="data_shps.zip",files=paste0(Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp/"),"data.*"))
-  #zip(zipfile="data_shps.zip",files=Sys.glob("shapefile_output/data.*"))
-    
+  targetDirShapeFiles <- paste0(targetDirZipFile,"/moveapps-shapefile")
+  dir.create(targetDirShapefiles)
+  
+  writeOGR(data.spdf,dsn=targetDirShapeFiles,layer="data",driver="ESRI Shapefile",overwrite_layer=TRUE) 
+  
+  zip::zip(
+    zipfile=paste0(targetDirZipFile,"/data_shps.zip"),
+    files=  targetDirShapeFiles,
+    root = targetDirZipFile,
+    mode = "cherry-pick"
+  )
+
   result <- data
   return(result)
 }
