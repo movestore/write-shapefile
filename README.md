@@ -11,6 +11,8 @@ The input Movement data set is transformed into a spatial points data frame that
 
 Using the zip-package, the four shapefile files are jointed to a zip file. 
 
+Note that the column names of the data set are shortened to 10 characters, which might often give problems to reconstruct their meaning. Refer to a csv that you can write with the rds2csv App, the order of columns is not changed.
+
 ### Input data
 moveStack in Movebank format
 
