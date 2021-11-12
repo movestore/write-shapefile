@@ -10,7 +10,7 @@ rFunction <- function(data)
   targetDirZipFile <- Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp")
   
   targetDirShapeFiles <- paste0(targetDirZipFile,"/moveapps-shapefile")
-  dir.create(targetDirShapefiles)
+  dir.create(targetDirShapeFiles)
   
   writeOGR(data.spdf,dsn=targetDirShapeFiles,layer="data",driver="ESRI Shapefile",overwrite_layer=TRUE) 
   
