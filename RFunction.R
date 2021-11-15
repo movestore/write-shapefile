@@ -7,10 +7,11 @@ rFunction <- function(data)
   
   data.spdf <- SpatialPointsDataFrame(coordinates(data),as.data.frame(data), proj4string=CRS("+proj=longlat +ellps=WGS84 +no_defs"))
   
-  targetDirZipFile <- Sys.getenv(x = "APP_ARTIFACTS_DIR", "/tmp")
+  dir.create(targetDirZipFile <- Sys.getenv(x = "APP_ARTIFACTS_DIR", "artefact-mock"))
   
-  targetDirShapeFiles <- paste0(targetDirZipFile,"/moveapps-shapefile")
-  dir.create(targetDirShapeFiles)
+  dir.create(targetDirShapeFiles <- tempdir())
+  targetDirShapeFiles <- paste0(targetDirShapeFiles,"/moveapps-shapefile")
+  logger.info(paste0("Storing shapefiles in tmp-dir ", targetDirShapeFiles))
   
   # careful, for writeOGR the column names have to be unique in the first 10 characters, that can be problematic and has to be adressed here
   for(i in seq(along=names(data.spdf@data)))
@@ -29,7 +30,7 @@ rFunction <- function(data)
   zip::zip(
     zipfile=paste0(targetDirZipFile,"/data_shps.zip"),
     files=  targetDirShapeFiles,
-    root = targetDirZipFile,
+    #root = targetDirZipFile,
     mode = "cherry-pick"
   )
 
