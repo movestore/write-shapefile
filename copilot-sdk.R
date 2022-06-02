@@ -2,7 +2,7 @@ library(jsonlite)
 source("logger.R")
 source("RFunction.R")
 
-inputFileName = "input_lowres_geese_74X.rds" #important to set to NULL for movebank-download
+inputFileName = "App-Output Workflow_Instance_001__Email_Alert__2021-11-12_12-28-57.rds" #important to set to NULL for movebank-download
 outputFileName = "output.rds"
 
 args <- list()
@@ -17,7 +17,7 @@ args <- list()
 #    args[["password"]] = "any-password"
 
 # Add your arguments of your r function here
-#args[["maxspeed"]] = 1 #m/s
+args[["file.name"]] = "moveapps-shapefile" #m/s
 #args[["duration"]] = 4 #h
 #args[["radius"]] = 	1000 #m 
 

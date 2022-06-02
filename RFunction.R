@@ -1,7 +1,7 @@
 library('move')
 library('zip')
 
-rFunction <- function(data)
+rFunction <- function(data,file.name="moveapps-shapefile")
 {
   Sys.setenv(tz="UTC")
   
@@ -10,7 +10,7 @@ rFunction <- function(data)
   dir.create(targetDirZipFile <- Sys.getenv(x = "APP_ARTIFACTS_DIR", "artefact-mock"))
   
   dir.create(targetDirShapeFiles <- tempdir())
-  targetDirShapeFiles <- paste0(targetDirShapeFiles,"/moveapps-shapefile")
+  targetDirShapeFiles <- paste0(targetDirShapeFiles,"/",file.name)
   logger.info(paste0("Storing shapefiles in tmp-dir ", targetDirShapeFiles))
   
   # careful, for writeOGR the column names have to be unique in the first 10 characters, that can be problematic and has to be adressed here

@@ -1,5 +1,12 @@
 {
   "settings": [
+    {
+      "id": "file.name",
+      "name": "File name",
+      "description": "Insert a file name for your shapefile folder, don't use spaces. Defaults to `moveapps-shapefile`",
+      "defaultValue": "moveapps-shapefile",
+      "type": "STRING"
+    }
   ],
   "dependencies": {
     "R": [
@@ -36,6 +43,16 @@
       "orcid": "0000-0003-0193-1563",
       "affiliation": "Max-Planck-Institute of Animal Behavior",
       "affiliationRor": "https://ror.org/026stee22"
+    },
+	{
+      "firstName": "Clemens",
+      "lastName": "Hahn",
+      "email": "clemens@couchbits.com",
+      "roles": [
+        "author",
+        "contributor"
+      ],
+      "affiliation": "couchbits GmbH"
     }
   ],
   "documentation": {
