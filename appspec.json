@@ -21,6 +21,9 @@
       },
 	  {
         "name": "zip"
+      },
+	  {
+        "name": "stringr"
       }
     ]
   },

@@ -1,0 +1,399 @@
+name,same_as,shortname_mx10,entity,nerc_url,key
+acceleration axes,,acc_axes,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000001,MVB000001
+acceleration raw x,,acc_raw_x,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000002,MVB000002
+acceleration raw y,,acc_raw_y,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000003,MVB000003
+acceleration raw z,,acc_raw_z,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000004,MVB000004
+acceleration sampling frequency per axis,,acc_freq,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000005,MVB000005
+acceleration x,,acc_x,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000006,MVB000006
+acceleration y,,acc_y,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000007,MVB000007
+acceleration z,,acc_z,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000008,MVB000008
+accelerations raw,,acc_raw,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000009,MVB000009
+acknowledgements,,acknowldgm,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000010,MVB000010
+algorithm marked outlier,,alg_outl,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000011,MVB000011
+alt project ID,,alt_projid,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000244,MVB000244
+angular velocities raw,,angvel_raw,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000245,MVB000245
+angular velocity X,,angvel_x,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000246,MVB000246
+angular velocity Y,,angvel_y,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000247,MVB000247
+angular velocity Z,,angvel_z,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000248,MVB000248
+animal comments,,animal_com,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000012,MVB000012
+animal death comments,,ani,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000013,MVB000013
+animal earliest date born,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000014,MVB000014
+animal exact date of birth,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000015,MVB000015
+animal ID,individual local identifier,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000016,MVB000016
+animal latest date born,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000017,MVB000017
+animal life stage,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000018,MVB000018
+animal mass,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000019,MVB000019
+animal nickname,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000020,MVB000020
+animal reproductive condition,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000021,MVB000021
+animal ring ID,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000022,MVB000022
+animal sex,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000023,MVB000023
+animal taxon,individual taxon canonical name,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000024,MVB000024
+animal taxon detail,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000025,MVB000025
+Argos altitude,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000026,MVB000026
+Argos best level,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000027,MVB000027
+Argos calcul freq,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000028,MVB000028
+Argos error radius,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000029,MVB000029
+Argos GDOP,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000030,MVB000030
+Argos IQ,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000031,MVB000031
+Argos lat1,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000032,MVB000032
+Argos lat2,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000033,MVB000033
+Argos LC,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000034,MVB000034
+Argos lon1,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000035,MVB000035
+Argos lon2,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000036,MVB000036
+Argos nb mes,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000037,MVB000037
+Argos nb mes 120,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000038,MVB000038
+Argos NOPC,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000039,MVB000039
+Argos orientation,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000040,MVB000040
+Argos pass duration,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000041,MVB000041
+Argos sat ID,Argos satellite ID,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000042,MVB000042
+Argos semi major,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000043,MVB000043
+Argos semi minor,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000044,MVB000044
+Argos sensor 1,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000045,MVB000045
+Argos sensor 2,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000046,MVB000046
+Argos sensor 3,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000047,MVB000047
+Argos sensor 4,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000048,MVB000048
+Argos transmission timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000049,MVB000049
+Argos valid location algorithm,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000050,MVB000050
+Argos valid location manual,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000051,MVB000051
+attachment type,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000052,MVB000052
+barometric depth,bar barometric depth,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000053,MVB000053
+barometric height,bar barometric height,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000054,MVB000054
+barometric pressure,bar barometric pressure,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000055,MVB000055
+BAS compensated latitude,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000056,MVB000056
+BAS confidence,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000057,MVB000057
+BAS fix type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000058,MVB000058
+BAS mid value secs,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000059,MVB000059
+BAS stationary latitude,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000060,MVB000060
+BAS transition 1,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000061,MVB000061
+BAS transition 2,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000062,MVB000062
+battery charge percent,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000063,MVB000063
+battery charging current,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000064,MVB000064
+behavior according to,behaviour according to,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000066,MVB000066
+behavioural classification,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000067,MVB000067
+citation,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000068,MVB000068
+comments,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000069,MVB000069
+compass heading,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000070,MVB000070
+conductivity,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000071,MVB000071
+contact person,contact person name,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000072,MVB000072
+CPU temperature,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000249,MVB000249
+data decoding software,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000214,MVB000214
+data processing software,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000073,MVB000073
+deploy off latitude,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000074,MVB000074
+deploy off longitude,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000075,MVB000075
+deploy off person,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000076,MVB000076
+deploy off timestamp,deploy off date,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000077,MVB000077
+deploy on latitude,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000078,MVB000078
+deploy on longitude,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000079,MVB000079
+deploy on person,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000080,MVB000080
+deploy on timestamp,deploy on date,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000081,MVB000081
+deployment comments,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000082,MVB000082
+deployment end comments,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000083,MVB000083
+deployment end type,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000084,MVB000084
+deployment ID,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000085,MVB000085
+duty cycle,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000086,MVB000086
+end timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000102,MVB000102
+eobs acceleration axes,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000087,MVB000087
+eobs acceleration sampling frequency per axis,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000088,MVB000088
+eobs accelerations raw,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000089,MVB000089
+eobs activity,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000090,MVB000090
+eobs activity samples,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000091,MVB000091
+eobs battery voltage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000092,MVB000092
+eobs fix battery voltage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000093,MVB000093
+eobs horizontal accuracy estimate,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000094,MVB000094
+eobs key bin checksum,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000095,MVB000095
+eobs speed accuracy estimate,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000096,MVB000096
+eobs start timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000097,MVB000097
+eobs status,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000098,MVB000098
+eobs temperature,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000099,MVB000099
+eobs type of fix,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000100,MVB000100
+eobs used time to get fix,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000101,MVB000101
+event ID,,event_id,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000103,MVB000103
+external temperature,temperature external,ext_temp,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000104,MVB000104
+Flt switch,,flt_switch,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000105,MVB000105
+geolocator calibration,,geoloc_cal,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000106,MVB000106
+geolocator fix type,,geoloc_fxt,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000107,MVB000107
+geolocator light threshold,,geoloc_lit,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000108,MVB000108
+geolocator rise,,geoloc_ris,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000215,MVB000215
+geolocator sensor comments,,geoloc_sc,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000109,MVB000109
+geolocator sun elevation angle,,geoloc_sea,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000110,MVB000110
+geolocator twilight3,,geoloc_tw3,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000216,MVB000216
+go public date,,go_publ,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000250,MVB000250
+activity count,GPS Activity Count,act_count,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000114,MVB000114
+GPS DOP,,gps_dop,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000115,MVB000115
+GPS fix type,,gps_fix_t,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000116,MVB000116
+GPS fix type raw,,gps_fix_tr,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000117,MVB000117
+GPS HDOP,,gps_hdop,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000118,MVB000118
+GPS maximum signal strength,,gps_maxss,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000119,MVB000119
+GPS message count,,gps_mesco,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000251,MVB000251
+GPS satellite count,,gps_sat_ct,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000120,MVB000120
+GPS speed accuracy estimate,speed accuracy estimate,gps_sp_ae,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000237,MVB000237
+GPS time to fix,,gps_ttf,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000121,MVB000121
+GPS VDOP,,gps_vdop,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000122,MVB000122
+grants used,,grants,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000123,MVB000123
+ground speed,,grd_speed,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000124,MVB000124
+GSM MCC-MNC,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000125,MVB000125
+GSM signal strength,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000126,MVB000126
+Gt sys week,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000111,MVB000111
+Gt tx count,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000112,MVB000112
+gyroscope axes,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000252,MVB000252
+gyroscope sampling frequency per axis,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000253,MVB000253
+habitat,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000127,MVB000127
+habitat according to,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000128,MVB000128
+heading,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000129,MVB000129
+height above ellipsoid,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000130,MVB000130
+height above mean sea level,height above msl,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000131,MVB000131
+height raw,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000132,MVB000132
+I am collaborator,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000254,MVB000254
+I am owner,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000217,MVB000217
+I can see data,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000218,MVB000218
+I have download access,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000255,MVB000255
+import marked outlier,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000133,MVB000133
+individual local identifier,animal ID,animal_id,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000134,MVB000134
+individual taxon canonical name,animal taxon,animal_tax,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000135,MVB000135
+internal temperature,temperature internal,temp_intern,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000256,MVB000256
+lat lower,latitude lower,lat_lower,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000136,MVB000136
+lat upper,latitude upper,lat_upper,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000137,MVB000137
+license terms,,lic_terms,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000138,MVB000138
+license type,,lic_type,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000257,MVB000257
+light level,gls light level,light_levl,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000139,MVB000139
+study local timestamp,,study_locts,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000140,MVB000140
+location accuracy comments,,loc_accr_c,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000141,MVB000141
+location error numerical,,loc_err_nu,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000142,MVB000142
+location error percentile,,loc_err_pe,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000143,MVB000143
+location error text,,loc_err_te,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000144,MVB000144
+location lat,,loc_lat,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000145,MVB000145
+location long,,loc_long,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000146,MVB000146
+long lower,longitude lower,long_lower,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000147,MVB000147
+long upper,longitude upper,long_upper,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000148,MVB000148
+Lotek CRC status,Lot CRC status,lotek_crcs,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000149,MVB000149
+Lotek CRC status text,Lot CRC status text,lotek_crct,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000150,MVB000150
+magnetic field axes,mag magnetic field axes,mag_fld_ax,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000219,MVB000219
+magnetic field raw x,mag magnetic field raw x,mag_fld_rx,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000151,MVB000151
+magnetic field raw y,mag magnetic field raw y,mag_fld_ry,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000152,MVB000152
+magnetic field raw z,mag magnetic field raw z,mag_fld_rz,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000153,MVB000153
+magnetic field sampling frequency per axis,mag magnetic field sampling frequency per axies,mag_fld_fr,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000220,MVB000220
+magnetic field x,,mag_fld_x,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000258,MVB000258
+magnetic field y,,mag_fld_y,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000259,MVB000259
+magnetic field z,,mag_fld_z,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000260,MVB000260
+magnetic fields raw,mag magnetic fields raw,mag_fld_r,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000221,MVB000221
+main location lat,study reference location latitude,mn_loc_lat,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000222,MVB000222
+main location long,study reference location longitude,mn_loc_lon,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000223,MVB000223
+manipulation comments,,mani_comm,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000154,MVB000154
+manipulation type,,mani_type,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000155,MVB000155
+manually marked outlier,,manm_outl,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000156,MVB000156
+manually marked valid,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000157,MVB000157
+migration stage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000160,MVB000160
+migration stage standard,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000161,MVB000161
+modelled,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000162,MVB000162
+mortality status,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000261,MVB000261
+Mw activity count,Microwave activity count,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000158,MVB000158
+Mw show in KML,Microwave show in KML,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000159,MVB000159
+number of deployed locations,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000224,MVB000224
+number of deployments,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000225,MVB000225
+number of events,,,individual,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000262,MVB000262
+number of individuals,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000226,MVB000226
+number of tags,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000227,MVB000227
+orientation quaternion raw w,quaternion-raw-w,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000228,MVB000228
+orientation quaternion raw x,quaternion-raw-x,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000229,MVB000229
+orientation quaternion raw y,quaternion-raw-y,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000230,MVB000230
+orientation quaternion raw z,quaternion-raw-z,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000231,MVB000231
+orientation quaternions raw,guaternions-raw,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000232,MVB000232
+orientation quaternions sampling frequency,quaterions-sampling-frequency,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000233,MVB000233
+Ornitela transmission protocol,orn transmission protocol,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000163,MVB000163
+pitch,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000263,MVB000263
+principal investigator,principal investigator name,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000164,MVB000164
+principal investigator address,PI contact details,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000234,MVB000234
+principal investigator email,PI email,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000235,MVB000235
+principal investigator name,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000236,MVB000236
+proofed,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000165,MVB000165
+provider update timestamp,provider update ts,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000264,MVB000264
+raptor workshop behavior,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000166,MVB000166
+raptor workshop deployment special event,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000167,MVB000167
+raptor workshop migration state,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000168,MVB000168
+receiver ID,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000265,MVB000265
+relative humidity,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000266,MVB000266
+roll,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000267,MVB000267
+sampling frequency,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000169,MVB000169
+sensor type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000170,MVB000170
+sensor type IDs,,,n/a,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000268,MVB000268
+solar cell voltage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000269,MVB000269
+solar voltage percent,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000270,MVB000270
+start timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000171,MVB000171
+study ID,Movebank ID,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000172,MVB000172
+study name,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000173,MVB000173
+study permission,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000271,MVB000271
+study reference location,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000174,MVB000174
+study site,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000175,MVB000175
+study summary,study objective,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000176,MVB000176
+study timezone,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000177,MVB000177
+study type,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000272,MVB000272
+study-specific measurement,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000178,MVB000178
+suspend license terms,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000238,MVB000238
+tag beacon frequency,beacon frequency,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000065,MVB000065
+tag comments,,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000179,MVB000179
+tag failure comments,,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000180,MVB000180
+tag ID,tag local identifier,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000181,MVB000181
+tag local identifier,tag ID,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000182,MVB000182
+tag manufacturer name,manufacturer name,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000183,MVB000183
+tag mass,weight,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000184,MVB000184
+tag model,,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000185,MVB000185
+tag processing type,processing type,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000186,MVB000186
+tag production date,,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000187,MVB000187
+tag readout method,,,deployment,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000188,MVB000188
+tag serial no,serial no,,tag,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000189,MVB000189
+tag tech spec,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000190,MVB000190
+tag voltage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000191,MVB000191
+taxon IDs,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000273,MVB000273
+TechnoSmart activity,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000192,MVB000192
+TechnoSmart signal quality,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000193,MVB000193
+temperature max,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000194,MVB000194
+temperature min,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000195,MVB000195
+there are data which I cannot see,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000239,MVB000239
+tilt angle,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000196,MVB000196
+tilt x,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000197,MVB000197
+tilt y,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000198,MVB000198
+tilt z,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000199,MVB000199
+timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000200,MVB000200
+timestamp end,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000274,MVB000274
+timestamp of first deployed location,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000240,MVB000240
+timestamp of last deployed location,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000241,MVB000241
+timestamp start,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000275,MVB000275
+transmission protocol,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000276,MVB000276
+transmission timestamp,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000201,MVB000201
+tsn,,,taxon,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000277,MVB000277
+twilight,gls twilight,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000113,MVB000113
+twilight excluded,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000242,MVB000242
+twilight inserted,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000243,MVB000243
+underwater count,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000202,MVB000202
+underwater time,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000203,MVB000203
+update ts,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000204,MVB000204
+UTM easting,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000205,MVB000205
+UTM northing,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000206,MVB000206
+UTM zone,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000207,MVB000207
+vertical error numerical,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000208,MVB000208
+visible,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000209,MVB000209
+waterbird workshop: behavior,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000210,MVB000210
+waterbird workshop: deployment special event,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000211,MVB000211
+waterbird workshop: migration state,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000212,MVB000212
+wet count,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000213,MVB000213
+Argos location algorithm,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000278,MVB000278
+Argos nb mes identical,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000279,MVB000279
+contact person ID,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000280,MVB000280
+ECG raw,heartrate ECG raw,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000281,MVB000281
+ECG sampling frequency,heartrate ECG sampling frequency,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000282,MVB000282
+ECGs raw,heartrate ECGs raw,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000283,MVB000283
+GPS PDOP,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000284,MVB000284
+GPS twilight,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000285,MVB000285
+Gt activity count,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000286,MVB000286
+heart rate,heartrate heart rate,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000287,MVB000287
+Icarus solar cell current,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000288,MVB000288
+is location sensor,,,tag_type,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000289,MVB000289
+is test,,,study,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000290,MVB000290
+Lotek fix status,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000291,MVB000291
+receiver deployment ID,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000292,MVB000292
+receiver detector ID,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000293,MVB000293
+RR interval,heartrate RR interval,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000294,MVB000294
+tag battery voltage,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000295,MVB000295
+telemetry detection count,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000296,MVB000296
+telemetry run ID,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000297,MVB000297
+voltage resolution,heartrate voltage resolution,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000298,MVB000298
+wet,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000299,MVB000299
+CTT solar current since last fix,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000300,MVB000300
+GMatrix alert,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000301,MVB000301
+GMatrix alert message,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000302,MVB000302
+GMatrix device type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000303,MVB000303
+GMatrix event,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000304,MVB000304
+GMatrix firmware version,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000305,MVB000305
+GMatrix GPS event,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000306,MVB000306
+GMatrix GPS event text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000307,MVB000307
+GMatrix GPS fix interval,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000308,MVB000308
+GMatrix GPS fix interval text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000309,MVB000309
+GMatrix hardware version,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000310,MVB000310
+GMatrix is moving,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000311,MVB000311
+GMatrix is moving text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000312,MVB000312
+GMatrix last location,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000313,MVB000313
+GMatrix last location text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000314,MVB000314
+GMatrix mode,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000315,MVB000315
+GMatrix mode text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000316,MVB000316
+GMatrix packet type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000317,MVB000317
+Savannah alarm type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000318,MVB000318
+Savannah record type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000319,MVB000319
+sequence number,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000320,MVB000320
+Sigfox computed location radius,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000321,MVB000321
+Sigfox computed location source,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000322,MVB000322
+Sigfox computed location status,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000323,MVB000323
+Sigfox country,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000324,MVB000324
+Sigfox device type,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000325,MVB000325
+Sigfox duplicates,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000326,MVB000326
+Sigfox link quality,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000327,MVB000327
+Sigfox LQI,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000328,MVB000328
+Sigfox operator,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000329,MVB000329
+Sigfox RSSI,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000330,MVB000330
+Sigfox tx interval,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000331,MVB000331
+Sigfox tx interval text,,,event,http://vocab.nerc.ac.uk/collection/MVB/current/MVB000332,MVB000332
+Motus batch ID,,,event,,draft
+VeDBA,,,event,,new1
+Zero crossings amplitude,,,event,,new2
+Zero crossings steps,,,event,,new3
+Sigfox payload,,,event,,new4
+TinyFox last error,,,event,,new5
+TinyFox max movement index,,,event,,new6
+TinyFox sunny index start voltage,,,event,,new7
+TinyFox sunny index voltage increase,,,event,,new8
+TinyFox total VeDBA,,,event,,new9
+TinyFox VeDBA burst sum,,,,,new10
+TinyFox total VeDBA count,,,event,,new11
+accelerations,,,event,,new12
+activity x,,,event,,new13
+activity y,,,event,,new14
+activity z,,,event,,new15
+alt index ID,,,event,,new16
+animal birth/hatch latitude,,,animal,,new17
+animal birth/hatch longitude,,,animal,,new18
+animal group ID,,,animal,,new19
+animal marker ID,,,animal,,new20
+animal mates,,,animal,,new21
+animal mortality date,,,animal,,new22
+animal mortality latitude,,,animal,,new23
+animal mortality longitude,,,animal,,new24
+animal mortality type,,,animal,,new25
+animal offspring,,,animal,,new26
+animal parents,,,animal,,new27
+animal siblings,,,animal,,new28
+capture handling time,,,deployment,,new29
+capture latitude,,,deployment,,new30
+capture longitude,,,deployment,,new31
+capture method,,,deployment,,new32
+capture timestamp,,,deployment,,new33
+DBA comments,,,deployment,,new34
+deploy-off measurements,,,deployment,,new35
+deploy-off sampling,,,deployment,,new36
+deploy-on measurements,,,deployment,,new37
+deploy-on sampling,,,deployment,,new38
+event group ID,,,event,,new39
+georeference protocol,,,deployment,,new40
+GPS GDOP,,,event,,new41
+GPS TDOP,,,event,,new42
+height above ground level,,,event,,new43
+individual count,,,event,,new44
+lat median,,,event,,new45
+lat sd,,,event,,new46
+locality,,,event,,new47
+locality according to,,,deployment,,new48
+long median,,,event,,new49
+long sd,,,event,,new50
+Lotek eRes,,,event,,new51
+manipulation status,,,event,,new52
+observer,,,event,,new53
+ODBA,,,event,,new54
+outlier comments,,,deployment,,new55
+receiver latitude,,,event,,new56
+receiver longitude,,,event,,new57
+scheduled detachment date,,,deployment,,new58
+speed accuracy,,,event,,new59
+tag backup voltage,,,event,,new60
+tag firmware,,,deployment,,new61
+tag retrieval date,,,deployment,,new62
+track segment ID,,,event,,new63
+vertical speed,,,event,,new64
+WC residual,,,event,,new65
