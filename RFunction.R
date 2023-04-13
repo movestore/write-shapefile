@@ -35,19 +35,19 @@ rFunction <- function(data,file.name="moveapps-shapefile")
       } else nms[i] <- shortname_novoc_max10[i]
     }
   }
-  names(data.spdf@data) <- nms
-  
+
   #if there are duplicates shorten and index
   if (any(duplicated(nms)))
-      {
-        dpl <- which(duplicated(nms)) 
-        for (k in seq(along=dpl))
-        {
-          dd <- which(nms==nms[dpl[k]])
-          L <- length(dd)
-          nms[dd] <- paste0(substr(nms[dpl[k]],1,9),c(1:L))
-        }
-      }
+  {
+    dpl <- which(duplicated(nms)) 
+    for (k in seq(along=dpl))
+    {
+      dd <- which(nms==nms[dpl[k]])
+      L <- length(dd)
+      nms[dd] <- paste0(substr(nms[dpl[k]],1,9),c(1:L))
+    }
+  }
+  names(data.spdf@data) <- nms
   
   writeOGR(data.spdf,dsn=targetDirShapeFiles,layer=file.name,driver="ESRI Shapefile",overwrite_layer=TRUE) 
   #library('rgdal')
