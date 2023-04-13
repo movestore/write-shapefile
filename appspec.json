@@ -3,7 +3,7 @@
     {
       "id": "file.name",
       "name": "File name",
-      "description": "Insert a file name for your shapefile folder, don't use spaces. Defaults to `moveapps-shapefile`",
+      "description": "Insert a file name for your shapefile folder, without spaces. Defaults to `moveapps-shapefile`",
       "defaultValue": "moveapps-shapefile",
       "type": "STRING"
     }

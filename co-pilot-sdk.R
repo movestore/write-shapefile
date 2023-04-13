@@ -2,13 +2,14 @@
 ## input/output ## adjust!
 ##################
 ## Provided testing datasets in `./data/raw`: 
-## "input1_pigeons.rds", "input2_geese.rds", "input3_stork.rds", "input4_goat.rds"  
+
 ## for own data: file saved as a .rds containing a object of class MoveStack
-inputFileName = "App-Output Workflow_Instance_001__Email_Alert__2021-11-12_12-28-57.rds"
+inputFileName = "./data/raw/input2_whitefgeese.rds" 
 
 ## optionally change the output file name
-unlink("./data/output/", recursive = TRUE)
-dir.create("./data/output/") 
+unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run
+dir.create("./data/output/") # create a new output folder
+
 outputFileName = "./data/output/output.rds" 
 
 ##########################
@@ -22,9 +23,12 @@ outputFileName = "./data/output/output.rds"
 #    args[["username"]] = "my_username"
 #    args[["department"]] = "my_department"
 
-args <- list()
+
+args <- list() # if your function has no arguments, this line still needs to be active
 # Add all your arguments of your r-function here
-args[["file.name"]] = "moveapps-shapefile" #m/s
+args[["file.name"]] = "moveapps-shapefile"
+
+
 ##############################
 ## source, setup & simulate ## leave as is!
 ##############################
@@ -36,7 +40,8 @@ Sys.setenv(
     SOURCE_FILE = inputFileName, 
     OUTPUT_FILE = outputFileName, 
     ERROR_FILE="./data/output/error.log", 
-    APP_ARTIFACTS_DIR ="./data/output/artifacts"
+
+    APP_ARTIFACTS_DIR ="./data/output/"
 )
 
 # simulate running your app on MoveApps
