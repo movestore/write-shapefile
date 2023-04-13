@@ -15,7 +15,7 @@ rFunction <- function(data,file.name="moveapps-shapefile")
   logger.info(paste0("Storing shapefiles in tmp-dir ", targetDirShapeFiles))
   
   # careful, for writeOGR the column names have to be unique in the first 10 characters, that can be problematic and has to be adressed here
-  shnames <- read.csv(getAppFilePath("vocab/MovebankVocab_ShapefileNamesF.csv"),header=TRUE) #adapt for local file path!
+  shnames <- read.csv(paste0(getAppFilePath("vocab"), "MovebankVocab_ShapefileNamesF.csv"),header=TRUE) #adapt for local file path!
   shnames$name <- tolower(make.names(shnames$name,allow_=FALSE))
   shnames$shortname_mx10 <- make.names(shnames$shortname_mx10,allow_=FALSE)
   
