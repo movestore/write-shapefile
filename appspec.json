@@ -8,6 +8,12 @@
       "type": "STRING"
     }
   ],
+  "providedAppFiles": [
+    {
+      "settingId": "vocab",
+      "from": "provided-app-files/vocab"
+    }
+  ],
   "dependencies": {
     "R": [
       {
