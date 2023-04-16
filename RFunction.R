@@ -38,6 +38,7 @@ rFunction <- function(data,file.name="moveapps-shapefile")
 
   #if there are duplicates shorten and index
   X <- 0
+  L <- 0
   while (any(duplicated(nms)) & (L+X)<100)
   {
     dpl <- which(duplicated(nms)) 
