@@ -4,7 +4,8 @@
 ## Provided testing datasets in `./data/raw`: 
 
 ## for own data: file saved as a .rds containing a object of class MoveStack
-inputFileName = "./data/raw/input2_whitefgeese.rds" 
+#inputFileName = "./data/raw/input2_whitefgeese.rds" 
+inputFileName = "Mountain_woodland_caribou_in_British_Columbia_Seip_and_Price_2019___Parturition_Cluster_Detection__2023-04-16_09-28-27.rds"
 
 ## optionally change the output file name
 unlink("./data/output/", recursive = TRUE) # delete "output" folder if it exists, to have a clean start for every run

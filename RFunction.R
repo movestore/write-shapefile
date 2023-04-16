@@ -37,17 +37,29 @@ rFunction <- function(data,file.name="moveapps-shapefile")
   }
 
   #if there are duplicates shorten and index
-  if (any(duplicated(nms)))
+  X <- 0
+  while (any(duplicated(nms)) & (L+X)<100)
   {
     dpl <- which(duplicated(nms)) 
     for (k in seq(along=dpl))
     {
       dd <- which(nms==nms[dpl[k]])
       L <- length(dd)
-      nms[dd] <- paste0(substr(nms[dpl[k]],1,9),c(1:L))
+      nms[dd] <- paste0(substr(nms[dpl[k]],1,8),c(1:L+X))
+      X <- X+1
     }
   }
   names(data.spdf@data) <- nms
+  
+  # fix matrix columns to numeric
+  for (j in seq(along=nms))
+  {
+    if (class(data.spdf@data[,nms[j]])[1]=="matrix")
+    {
+      data.spdf@data[,nms[j]] <- as.numeric(data.spdf@data[,nms[j]])
+      logger.info(paste("Your variable",nms[j],"had to be transferred to numeric."))
+    }
+  }
   
   writeOGR(data.spdf,dsn=targetDirShapeFiles,layer=file.name,driver="ESRI Shapefile",overwrite_layer=TRUE) 
   #library('rgdal')
