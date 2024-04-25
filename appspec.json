@@ -1,33 +1,67 @@
 {
+  "version": "1.2",
   "settings": [
     {
       "id": "file.name",
       "name": "File name",
-      "description": "Insert a file name for your shapefile folder, without spaces. Defaults to `moveapps-shapefile`",
+      "description": "Insert a file name for your shapefile folder(s) and files, without spaces. Defaults to `moveapps-shapefile`",
       "defaultValue": "moveapps-shapefile",
       "type": "STRING"
-    }
-  ],
-  "providedAppFiles": [
+    },
     {
-      "settingId": "vocab",
-      "from": "provided-app-files/vocab"
+      "id": "pts",
+      "name": "Points shapefile",
+      "description": "Select if you want to create a zipped set of shapefiles containing the points of the data set.",
+      "defaultValue": true,
+      "type": "CHECKBOX"
+    },
+	{
+      "id": "seg",
+      "name": "Line segments shapefile",
+      "description": "Select if you want to create a zipped set of shapefiles containing the line segements of the data set.",
+      "defaultValue": false,
+      "type": "CHECKBOX"
+    },
+	{
+      "id": "lins",
+      "name": "Track lines shapefile",
+      "description": "Select if you want to create a zipped set of shapefiles containing the full lines per track of the data set.",
+      "defaultValue": false,
+      "type": "CHECKBOX"
+    },    
+	{
+      "id": "gpkg",
+      "name": "GeoPackage file(s)",
+      "description": "Select if you want additional *.gpkg files created for the selected shapefiles (points, segments, lines).",
+      "defaultValue": false,
+      "type": "CHECKBOX"
     }
   ],
   "dependencies": {
     "R": [
       {
-        "name": "move"
+        "name": "move2"
       },
-	  {
+      {
+        "name": "sf"
+      },
+      {
+        "name": "dplyr"
+      },
+      {
         "name": "zip"
       },
-	  {
+      {
         "name": "stringr"
       }
     ]
   },
-  "createsArtifacts": true,
+  "providedAppFiles": [
+    {
+      "settingId": "vocab",
+      "from": "data/auxiliary/user-files/provided-app-files/vocab/MovebankVocab_ShapefileNamesF.csv"
+    }
+  ],
   "license": {
     "key": "MIT"
   },
@@ -36,6 +70,8 @@
     "shapefile",
     "shp",
     "dbf",
+	"gpkg",
+	"geopackage",
 	"write",
 	"GIS"
   ],
@@ -62,9 +98,16 @@
         "contributor"
       ],
       "affiliation": "couchbits GmbH"
+    },
+	{
+      "firstName": "Anne",
+      "middleInitials": "K",
+      "lastName": "Scharf",
+      "email": "ascharf@ab.mpg.de",
+      "roles": ["author"],
+      "orcid": null,
+      "affiliation": "Max-Planck-Institute of Animal Behavior",
+      "affiliationRor": "https://ror.org/026stee22"
     }
-  ],
-  "documentation": {
-    "url": "https://github.com/movestore/write-shapefile/blob/main/README.md"
-  }
+  ]
 }

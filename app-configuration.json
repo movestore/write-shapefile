@@ -1,0 +1,7 @@
+{
+    "pts": true, 
+    "seg": true,
+    "lins": true,
+    "gpkg": true,
+    "file.name": "moveapps-shapefile"
+}
